@@ -4,7 +4,8 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-main {
+body {
+    background-color: #F5F3EB;
     width: 100%;
 }
 header{
@@ -56,6 +57,45 @@ header nav ul li a {
     font-size: 19px;
     color: #696969;
 }
+
+section .main_info{
+    display:flex;
+}
+section .main_info .basic_info h1 {
+    color: #241F21;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    padding: 10px;
+}
+section .box{
+    position: sticky;
+    margin-left: 55%;
+    top: 5%;
+}
+div{
+    margin-right: auto;
+    margin-left: 3%;
+    margin-top: 10%;
+    max-width: 620px;
+}
+section div ul li{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+    color: #696969;
+    padding-bottom: 2px;
+}
+section div h2{
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: #241F21;
+}
+section div p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+    color: #696969;
+}
+
 footer{
     position: absolute;
     bottom: 0%;
