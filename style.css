@@ -69,9 +69,12 @@ section .main_info .basic_info h1 {
     padding: 10px;
 }
 section .box{
-    position: sticky;
+    position: fixed;
     margin-left: 55%;
-    top: 5%;
+    top: 15%;
+}
+section .box img{
+    border-radius: 5%;
 }
 div{
     margin-right: auto;
