@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 200px;
+    padding: 5px 100px;
     transition: 0.3s ease;
     background-color: #F5F3EB;    
 }
@@ -40,6 +40,9 @@ header nav ul li a {
     color: black;
     text-decoration: none;
 }
+header nav ul li a:hover {
+    color: orange;
+}
 .Home_Section{
     margin-right: auto;
     margin-left: 3%;
@@ -57,31 +60,47 @@ header nav ul li a {
     font-size: 19px;
     color: #696969;
 }
-
-section .main_info{
-    display:flex;
+ul{
+    line-height: 205%;
 }
-section .main_info .basic_info h1 {
+section .basic_info{
+    margin-top: 3%;
+}
+section .basic_info h1 {
     color: #241F21;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 70px;
     padding: 10px;
 }
+section div h3{
+    color: orange;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 28px;
+    padding-top: 15px;
+}
 section .box{
+    height: 500px;
+    background-color: aquamarine;
     position: fixed;
-    margin-left: 55%;
-    top: 15%;
+    margin-left: 59%;
+    top: -3%;
+    border-radius: 20px;
 }
-section .box img{
+section .box img, p {
     border-radius: 5%;
+    margin-top: -10px;
+    margin-left: -1%;
+    padding-right: 2%;
 }
-div{
-    margin-right: auto;
-    margin-left: 3%;
-    margin-top: 10%;
-    max-width: 620px;
+
+section .box .box_ul{
+    margin-top: 1%;
+    margin-left: 15%;
 }
+
 section div ul li{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 19px;
@@ -93,17 +112,108 @@ section div h2{
     padding-bottom: 10px;
     color: #241F21;
 }
+section div h4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+    color: rgb(248, 175, 64)
+}
 section div p{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 19px;
     color: #696969;
 }
+/*contact area*/
+.content_contact h2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.content_contact section{
+    margin-left: auto; 
+    margin-right: auto;
+}
+.detail_contact {
+    width: 46%;
+    height: 42vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_contact section aside p {
+    font-size: x-large;
+    margin-bottom: 5%;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: black;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button {
+    padding: 10px 0;
+    color: black;
+    outline: none;
+    background: red;
+    border: 2px solid black;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group{
+    flex-basis: 48%;
+}
 
 footer{
     position: absolute;
     bottom: 0%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    color: #241F21;
+    color: #3a3136;
     font-size: 14px;
+    width: 100%;
+    text-align: end;
+    padding: 1.7%;
+}
+html{
+    scroll-behavior: smooth;
 }

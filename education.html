@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>EDUCATION</title>
+    <style>
+    section div{
+        margin-right: 2%;
+        margin-left: 10%;
+        margin-top: 10%;
+        max-width: 620px;
+    }</style>
 </head>
-<body>
-    <header style="position: sticky; top: 0%;">
+<body style="max-width: 1366px;">
+    <header style="position: sticky; top: 0%;  z-index: 88;">
         <h4 class="logo">DAR</h4>
         <nav>
             <ul>
@@ -19,42 +26,33 @@
     </header>
 
     <section>
-        <div class="box" style="height: 100%;">
-            <img src="img/myProfile.jpg" alt="my img" height="200px" width="120px">
+        <div class="basic_info">
+            <h1>Bandar S. Dhawalath Ansary</h1>
             <ul>
-                <li>Name: Bandar</li>
-                <li>Middle Name: Salatan</li>
-                <li>Last Name: Dhawalath Ansary</li>
-                <li>Sex: Male</li>
-                <li>Birth place: Tuguis, Tambilil, Kiamba, Sarangani Province</li>
-                <li>Birth Date: February 16, 2002</li>
+                <li><strong>Address:</strong> Lagundi, Kiamba, Sarangani Province</li>
+                <li><Strong>Phone:</Strong> 63+ 9753262705</li>
+                <li><strong>Email:</strong> ansarybandar@gmail.com</li>
             </ul>
         </div>
-        <div class="main_info" style="margin-top: 1%;">
-            <div class="basic_info">
-                <h1>Bandar S. Dhawalath Ansary</h1>
-                <ul>
-                    <li>address: Lagundi, Kiamba, Sarangani Province</li>
-                    <li>Phone: 63+ 9753262705</li>
-                    <li>email: ansarybandar@gmail.com</li>
-                </ul>
-            </div>
+        
 
-            <!--<div class="box" style="height: 100%;">
+        <div class="box">
+            <div style="display: flex;">
                 <img src="img/myProfile.jpg" alt="my img" height="200px" width="120px">
-                <ul>
-                    <li>Name: Bandar</li>
-                    <li>Middle Name: Salatan</li>
-                    <li>Last Name: Dhawalath Ansary</li>
-                    <li>Sex: Male</li>
-                    <li>Birth place: Tuguis, Tambilil, Kiamba, Sarangani Province</li>
-                    <li>Birth Date: February 16, 2002</li>
-                </ul>
-            </div>-->
+                <p style="text-align: center; background-color: rgb(241, 241, 241); border-radius: 20px; padding: 20px;">"WHATEVER YOU HAVE LEARNED OR RECEIVED OR HEARD FROM ME, OR SEEN IN ME -PUT IT INTO PRACTICE. AND THE GOD OF PEACE WILL BE WITH YOU." <strong><i><u>PHILIPPIANS 4:9</u></i></strong></p>
+            </div>
+            <ul class="box_ul">
+                <li><strong>Name:</strong> Bandar</li>
+                <li><strong>Middle Name:</strong> Salatan</li>
+                <li><Strong>Last Name:</Strong> Dhawalath Ansary</li>
+                <li><strong>Sex:</strong> Male</li>
+                <li><strong>Birth Place:</strong> Tuguis, Tambilil, Kiamba, Sarangani Province</li>
+                <li><strong>Birth Date:</strong> February 16, 2002</li>
+            </ul>
         </div>
 
         <div>
-            <h2>Personal Profile</h2>
+            <h2 class="leftside">Personal Profile</h2>
             <p>I am a software developer with robust problem-solving skills 
                 and proven experience in creating and designing software in a 
                 test-driven environment.
@@ -114,7 +112,7 @@
             </ul>
         </div>
 
-        <div>
+        <div style="padding-bottom: 1.7%;">
             <h2>Other Skills</h2>
             <ul>
                 <li>The ability to analyze complex technical information</li>
@@ -124,9 +122,5 @@
             </ul>
         </div>
     </section>
-
-    <footer style="position: relative; bottom: 0%; padding-left: 2%; padding-bottom: 2%; padding-top: 2%;">
-        <p>by: Bandar S. Dhawalath Ansary</p>
-    </footer>
 </body>
 </html>
