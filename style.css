@@ -130,8 +130,8 @@ section div p{
     font-weight: 600;
 }
 .content_contact section{
-    margin-left: auto; 
-    margin-right: auto;
+    margin-left: 5%; 
+    margin-right: 5%;
 }
 .detail_contact {
     width: 46%;
@@ -140,11 +140,18 @@ section div p{
     align-items: center;
     justify-content: center;
 }
+.content_contact section aside h2{
+    text-align: left;
+}
 .content_contact section aside p {
     font-size: x-large;
     margin-bottom: 5%;
 }
-
+.content_contact section aside ul {
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 20px;
+}
 form {
     width: 90%;
     max-width: 600px;
