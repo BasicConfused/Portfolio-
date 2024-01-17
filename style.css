@@ -18,6 +18,7 @@ header{
     transition: 0.3s ease;
     background-color: #F5F3EB;    
 }
+
 header .logo {
     color: #F26649;
     font-size: 1.5rem;
@@ -123,6 +124,13 @@ section div p{
     color: #696969;
 }
 /*contact area*/
+.content_contact{
+    margin-top:3%; 
+    background-color: aquamarine;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
 .content_contact h2 {
     margin-top: 2%;
     text-align: center;
@@ -148,7 +156,7 @@ section div p{
     margin-bottom: 5%;
 }
 .content_contact section aside ul {
-    background-color: aquamarine;
+    background-color: #8ee7e8;
     padding: 30px;
     border-radius: 20px;
 }
@@ -160,6 +168,9 @@ form {
 .input-group{
     margin-bottom: 30px;
     position: relative;
+}
+.input-group:hover{
+    background: rgb(238, 201, 153);
 }
 
 input, textarea{
@@ -187,13 +198,15 @@ button {
     padding: 10px 0;
     color: black;
     outline: none;
-    background: #ff0066;
+    background: #3ce0d5;
     border: 2px solid black;
     width: 100%;
     cursor: pointer;
     border-radius: 15px;
 }
-
+button:hover{
+    background: #59acac;
+}
 input:focus~label,
 input:valid~label,
 textarea:focus~label,
