@@ -145,9 +145,8 @@ section div p{
     font-size: 50px;
     font-weight: 600;
 }
-.content_contact section{
-    margin-left: 5%; 
-    margin-right: 5%;
+.get_content{
+    display: flex; 
 }
 .detail_contact {
     width: 46%;
@@ -155,6 +154,9 @@ section div p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.content_contact section aside{
+    margin-left: 5%;    
 }
 .content_contact section aside h2{
     text-align: left;
@@ -263,10 +265,20 @@ footer{
         max-width: 620px;
         text-align: justify;
     }
+    /*education*/
 
     /*contact html*/
     .get_content{
-        
+        display: block;
+        margin: 5%;
+    }
+    .detail_contact{
+        margin-top: 30%;
+        width: 100%;
+    }
+    footer{
+        position: relative;
+        bottom: 0%;
     }
 }
 
@@ -291,9 +303,23 @@ footer{
         max-width: 620px;
         text-align: justify;
     }
+/*education*/
+    .box{
+        display: none;
+    }
+
+/*contact*/
+    .get_content{
+        display: block;
+        margin: 5%;
+    }
+    .detail_contact{
+        margin-top: 30%;
+        width: 100%;
+    }
+
     footer{
         margin-bottom: 3.5%;
         margin-right: 3.5%;
     }
 }
-</style>
