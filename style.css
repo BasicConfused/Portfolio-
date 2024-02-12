@@ -258,6 +258,9 @@ footer{
         position: relative;
         margin: 10px;
     }
+    header nav ul li{
+        margin: 10px 19px;
+    }
     .Home_Section {
         margin-right: 10%;
         margin-left: 10%;
@@ -273,8 +276,11 @@ footer{
         margin: 5%;
     }
     .detail_contact{
-        margin-top: 30%;
+        margin-top: 0%;
         width: 100%;
+    }
+    form {
+        margin-top: -40%;
     }
     footer{
         position: relative;
@@ -283,7 +289,7 @@ footer{
 }
 
 /*MOBILE*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 490px){
     header{
         padding: 0%;
         align-items: none;
@@ -304,6 +310,13 @@ footer{
         text-align: justify;
     }
 /*education*/
+    section{
+        margin: 3%;
+    }
+    section .basic_info h1{
+        font-size: 45px;
+    }
+
     .box{
         display: none;
     }
@@ -319,6 +332,7 @@ footer{
     }
 
     footer{
+        margin-top: 5%;
         margin-bottom: 3.5%;
         margin-right: 3.5%;
     }
